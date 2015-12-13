@@ -1,0 +1,48 @@
+body > .panel-alert{
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	right: 0;
+	top: 60px;
+	display: none;
+}
+body > .panel-alert > .alert{
+	padding: 20px;
+	width: 50%;
+	margin: 0 auto;
+	border-color:#fff;
+	border-radius: 0;
+	box-shadow: 0px 10px 10px #ccc;
+}
+
+.pagination>.active>a, 
+.pagination>.active>span, 
+.pagination>.active>a:hover, 
+.pagination>.active>span:hover, 
+.pagination>.active>a:focus, 
+.pagination>.active>span:focus{
+	background: #0b9c8f;
+}
+textarea.form-control{
+	resize:none;
+}
+
+.vacancy-list{
+	background-color:#FFFFFF !important;
+	font-family: 'Open Sans';
+	height: 100%;
+}
+.text-middle{
+	vertical-align:middle !important;
+}
+
+[readonly="readonly"] {
+	background: white !important;
+}
+
+.badge.badge-notif{
+	background: #ff0000;
+	border:solid 2px #fff;
+	color: #fff;
+	font-weight: bold;
+}
