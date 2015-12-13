@@ -1,0 +1,47 @@
+@extends('Master.Template')
+
+@section('meta')
+	
+@endsection
+
+@section('title')
+	Templete
+@endsection
+
+@section('content')
+	
+	<div class="row">
+		<!-- left -->
+		<div class="col-sm-9">
+			
+			<div class="grid simple">
+				<div class="grid-title no-border"></div>
+				<div class="grid-body no-border">
+					...
+				</div>
+			</div>
+
+		</div>
+
+		<!-- right -->
+		<div class="col-sm-3">
+			
+			<div class="grid simple">
+				<div class="grid-title no-border"></div>
+				<div class="grid-body no-border">
+					...
+				</div>
+			</div>
+
+			<div class="grid simple">
+				<div class="grid-title no-border"></div>
+				<div class="grid-body no-border">
+					...
+				</div>
+			</div>
+
+		</div>
+		
+	</div>
+
+@endsection
